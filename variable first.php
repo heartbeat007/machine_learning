@@ -3,18 +3,26 @@
  * Created by PhpStorm.
  * User: rebirth
  * Date: 8/3/18
- * Time: 12:46 PM
- * subject:php learning(variables)
-**/
+ * Time: 1:17 PM
+ * subject:String
+ **/
 
-//using different types of variable
-//variables
-$variable1 = 10;
-$variable2 = "hello world";
-$variable3 = 10.2;
-echo $variable1;
-echo $variable2;
-echo $variable3;
+
+echo "hello world <br />"; //string
+echo 'Hello world <br />';//another string
+
+//saving striong to variale
+$string1 = "my name is tanvir and now i am learning php <br />";
+$string2 = "hello ";
+$string3 = "world";
+echo $string2;
+echo $string3;
+$phrase = $string2 . " " .$string3; //its more like a string concatenation
+
+echo "$phrase again<br />"; //it is only possible in double quote
+echo "{$phrase}again<br />";
+
+
 
 
 
