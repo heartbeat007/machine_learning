@@ -1,10 +1,10 @@
 <?
 //in this script we gonna just 
 //open a database connection for the further use
-$host = 'secret';
-$username='secret';
-$password='secret';
-$dbname = "secret";
+$host = 'localhost';
+$username='root';
+$password='';
+$dbname = "crudapp";
 $conn = mysqli_connect($host,$username,$password,$dbname);
 //now we crate a connection so if there is 
 //no connection we send a confirmation msg
